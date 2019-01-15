@@ -1,0 +1,44 @@
+body{
+	background-image: url("../images/logo.png");
+	font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+
+#container{
+	background-image: url("../images/books-words-black-backgrounds-wallpapers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 800px;
+	height: 670px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#bgc{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(250, 250, 250, 0.7);
+}
+
+#speelbord {
+	margin: 0 auto;
+	width: 575px;
+}
+
+#speelbord > div > div{
+	display: inline-block;
+	border-radius: 50%;  
+	border: solid #73AD21;
+	background-color: white;
+	
+	padding: 30px;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#speelbord > div > div > p{
+	position: absolute;
+}
